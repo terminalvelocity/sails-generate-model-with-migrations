@@ -1,0 +1,43 @@
+{
+  "name": "sails-generate-model-with-migrations",
+  "version": "1.0.0",
+  "description": "Generate a model and a migration for a Sails app.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "seeds",
+    "model",
+    "generator",
+    "sails",
+    "generate",
+    "plugin",
+    "migration"
+  ],
+  "author": "John-Henry Liberty <jhliberty@seedsjs.com> (http://seedsjs.com)",
+  "repository": {
+    "type": "git",
+    "url": "terminalvelocity/sails-generate-model-with-migrations"
+  },
+  "bugs": {
+    "url": "https://github.com/terminalvelocity/sails-generate-model-with-migrations/issues"
+  },
+  "homepage": "https://github.com/terminalvelocity/seeds.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "~2.4.0",
+    "merge-defaults": ">=0.1.0",
+    "underscore.string": "~2.3.3"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "model",
+    "behavior": "overrides `sails generate model`",
+    "sailsVersion": "~0.11.0"
+  }
+}
